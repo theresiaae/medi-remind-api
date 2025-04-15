@@ -22,6 +22,7 @@ func InitDB() {
 
 	fmt.Println("Database berhasil terkoneksi!")
 
+	//  Otomatis bikin tabel dari struct model
 	err = DB.AutoMigrate(&models.User{}, &models.Obat{})
 	if err != nil {
 		log.Fatalf("Gagal migrate database: %v", err)
