@@ -7,6 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+
 // CreateObat - Tambah data obat
 func CreateObat(c *gin.Context) {
 	var obat models.Obat

@@ -8,7 +8,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-
 func GetAllUsers(c *gin.Context) {
 	var users []models.User
 	config.DB.Find(&users)
