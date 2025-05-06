@@ -4,7 +4,6 @@ import (
 	"medi_remind_backend/config"
 	"medi_remind_backend/models"
 	"net/http"
-
 	"github.com/gin-gonic/gin"
 )
 
